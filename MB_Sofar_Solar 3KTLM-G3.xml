@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Modbus Title="SofarSolar 3KTLM-G3" Comment="" Channel="1">
+	<Info templateType="7" minVersion="14010509"/>
+	<ModbusCmd Title="Réseau Fréquence" Comment="" ModbusAddress="1156" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="303" Unit="&lt;v.1&gt; Hz" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1"/>
+	<ModbusCmd Title="Production Jour Puissance" Comment="" ModbusAddress="1668" ModbusCmd="3" ModbusDataType="98" ModbusPollingCycle="301" Unit="&lt;v.2&gt; KWh" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1"/>
+	<ModbusCmd Title="Production Instantannée Puissance" Comment="" ModbusAddress="1157" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="15" Unit="&lt;v.3&gt; KWh" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1"/>
+	<ModbusCmd Title="Production Jour Temps" Comment="" ModbusAddress="1062" ModbusCmd="3" ModbusPollingCycle="301" Unit="&lt;v&gt; Min." Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="100"/>
+	<ModbusCmd Title="Chaine 1 Ampérage" Comment="" ModbusAddress="1413" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="87" Unit="&lt;v.1&gt; A" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1"/>
+	<ModbusCmd Title="Chaine 2 Voltage" Comment="" ModbusAddress="1415" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="87" Unit="&lt;v.1&gt; V" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="1"/>
+	<ModbusCmd Title="Chaine 1 Voltage" Comment="" ModbusAddress="1412" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="87" Unit="&lt;v.1&gt; V" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="1"/>
+	<ModbusCmd Title="Chaine 2 Ampérage" Comment="" ModbusAddress="1416" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="87" Unit="&lt;v.1&gt; A" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1"/>
+	<ModbusCmd Title="Réseau Voltage" Comment="" ModbusAddress="1165" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="23" Unit="&lt;v.1&gt; V" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="1"/>
+	<ModbusCmd Title="Coeur Température" Comment="" ModbusAddress="1048" ModbusCmd="3" ModbusPollingCycle="87" Unit="&lt;v&gt; °" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="100"/>
+	<ModbusCmd Title="Radiateur Température" Comment="" ModbusAddress="1050" ModbusCmd="3" ModbusPollingCycle="87" Unit="&lt;v&gt; °" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="100"/>
+	<ModbusCmd Title="Production Total Temps" Comment="" ModbusAddress="1063" ModbusCmd="3" ModbusDataType="98" ModbusPollingCycle="301" Unit="&lt;v&gt; Min." Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="100"/>
+	<ModbusCmd Title="Production Total Puissance" Comment="" ModbusAddress="1670" ModbusCmd="3" ModbusDataType="98" ModbusPollingCycle="301" Unit="&lt;v.2&gt; KWh" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="1"/>
+</Modbus>
