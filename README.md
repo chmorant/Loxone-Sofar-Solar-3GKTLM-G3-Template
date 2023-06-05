@@ -1,0 +1,1 @@
+# Loxone-Sofar-Solar-3GKTLM-G3-Template
